@@ -31,7 +31,7 @@ Array.prototype.min = function(){
 }
 
 Array.prototype.sum = function(){
-  var result = 0, i = 0;
+  var result = i = 0;
   for ( ; i < this.length; i++ )
     result += this[i];
   return result;
