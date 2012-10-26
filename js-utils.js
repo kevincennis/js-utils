@@ -51,5 +51,5 @@ Math.log = (function(){
   return function(val, base){
     if ( typeof base !== 'number' ) return func(val);
     return func(val) / func(base);
-  }
+  };
 }());
