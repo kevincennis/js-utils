@@ -29,3 +29,10 @@ Array.prototype.max = function(){
 Array.prototype.min = function(){
   return Math.min.apply(Math, this);
 }
+
+Array.prototype.sum = function(){
+  var result = 0, i = 0;
+  for ( ; i < this.length; i++ )
+    result += this[i];
+  return result;
+}
