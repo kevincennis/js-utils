@@ -10,6 +10,11 @@ String.prototype.format = function(){
   });
 };
 
+// reverse a string
+String.prototype.reverse = function(){
+  return this.split('').reverse().join('');
+}
+
 /* Numbers */
 
 // determine whether a number fits inside a given range
